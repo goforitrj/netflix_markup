@@ -1,3 +1,5 @@
+import './styles.css';
+
 const add = (x, y) => x + y;
 
 const result = add(5, 5);
