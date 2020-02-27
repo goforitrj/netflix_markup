@@ -1,0 +1,303 @@
+body {
+  color: #111111;
+  font-size: 17px;
+}
+
+body header {
+  display: none;
+}
+
+body .sns-button-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .sns-button-area .button {
+  width: 40px;
+  height: 40px;
+  margin-left: 2px;
+  -webkit-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4);
+          box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .sns-button-area .button a {
+  font-size: 1.5em;
+  color: white;
+}
+
+body nav#home-nav {
+  width: 88px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-right: 1px solid #dddddd;
+}
+
+body nav#home-nav a.nav-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: white;
+  background-color: #faaf52;
+  border-radius: 50%;
+}
+
+body nav#home-nav div.nav-info {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  width: 500px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.1em;
+  padding-top: 5px;
+}
+
+body nav#home-nav div.nav-info .nav-info-title {
+  font-weight: bold;
+}
+
+body nav#home-nav div.nav-info .nav-info-description {
+  font-size: 0.8em;
+  color: gray;
+}
+
+body nav#home-nav span.nav-more {
+  margin: 20px;
+  font-size: 1.8em;
+  color: gray;
+  cursor: pointer;
+}
+
+body article.first-article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  height: 100vh;
+}
+
+body article.first-article .info-left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+body article.first-article .info-left .info-left-container {
+  padding: 15%;
+}
+
+body article.first-article .info-left .info-left-container h2 {
+  font-size: 2.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 4em;
+}
+
+body article.first-article .info-left .info-left-container p {
+  line-height: 1.2em;
+  padding: 22% auto;
+}
+
+body article.first-article .info-right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  position: relative;
+}
+
+body article.first-article .info-right::after {
+  content: '';
+  background: url("../image/strawberry.jpg");
+  background-size: cover;
+  position: absolute;
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+body article.first-article .info-right .button-area.before {
+  opacity: 0;
+  -webkit-transform: translateY(5vh);
+          transform: translateY(5vh);
+  visibility: hidden;
+  will-change: opacity, transform, visibility;
+  -webkit-transition: opacity 1200ms ease-out 0s, visibility 1200ms ease-out 0s, -webkit-transform 800ms ease-out 0s;
+  transition: opacity 1200ms ease-out 0s, visibility 1200ms ease-out 0s, -webkit-transform 800ms ease-out 0s;
+  transition: opacity 1200ms ease-out 0s, transform 800ms ease-out 0s, visibility 1200ms ease-out 0s;
+  transition: opacity 1200ms ease-out 0s, transform 800ms ease-out 0s, visibility 1200ms ease-out 0s, -webkit-transform 800ms ease-out 0s;
+}
+
+body article.first-article .info-right .button-area.after {
+  will-change: opacity, transform, visibility;
+  opacity: 1;
+  -webkit-transform: none;
+          transform: none;
+  visibility: visible;
+  -webkit-transition: opacity 1200ms ease-out 0s, visibility 1200ms ease-out 0s, -webkit-transform 800ms ease-out 0s;
+  transition: opacity 1200ms ease-out 0s, visibility 1200ms ease-out 0s, -webkit-transform 800ms ease-out 0s;
+  transition: opacity 1200ms ease-out 0s, transform 800ms ease-out 0s, visibility 1200ms ease-out 0s;
+  transition: opacity 1200ms ease-out 0s, transform 800ms ease-out 0s, visibility 1200ms ease-out 0s, -webkit-transform 800ms ease-out 0s;
+}
+
+body article.first-article .info-right .button-area {
+  position: absolute;
+  bottom: 22%;
+  right: 7%;
+}
+
+body article.first-article .down-button {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  background-color: #faaf52;
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body article.first-article .down-button a {
+  text-decoration: none;
+  color: white;
+}
+
+body article.second-article {
+  padding: 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body article.second-article .second-article-start,
+body article.second-article .second-article-middle,
+body article.second-article .second-article-end {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1em;
+  color: #777;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  opacity: 1;
+}
+
+body article.second-article .second-article-start h2,
+body article.second-article .second-article-middle h2,
+body article.second-article .second-article-end h2 {
+  color: black;
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 2em;
+}
+
+body article.third-article {
+  padding: 20% 30%;
+  background-size: cover;
+  background-attachment: scroll, fixed;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.5)), to(rgba(17, 17, 17, 0.5))), url("../image/laptop.jpg");
+  background-image: linear-gradient(180deg, rgba(17, 17, 17, 0.5), rgba(17, 17, 17, 0.5)), url("../image/laptop.jpg");
+}
+
+body article.third-article p {
+  font-size: 1.1em;
+  color: white;
+  line-height: 1.4em;
+}
+
+body article.forth-article {
+  display: none;
+}
+
+body section#home-section,
+body footer {
+  margin-left: 88px;
+}
+
+body footer {
+  padding: 5%;
+  background-image: -webkit-gradient(linear, left top, right top, from(#40424b), to(#1c1d24));
+  background-image: linear-gradient(90deg, #40424b, #1c1d24);
+  color: white;
+  font-size: 0.8em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body footer .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body footer a {
+  color: white;
+}
+/*# sourceMappingURL=home.css.map */

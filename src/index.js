@@ -1,4 +1,5 @@
-import './styles.css';
+import './asset/styles/reset.css';
+import './asset/styles/home.css';
 
 const add = (x, y) => x + y;
 
