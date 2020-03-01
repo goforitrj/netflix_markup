@@ -28,11 +28,27 @@ body .sns-button-area .button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
 }
 
 body .sns-button-area .button a {
   font-size: 1.5em;
   color: white;
+}
+
+body .sns-button-area .button:hover {
+  color: black;
+}
+
+body .sns-button-area .button:hover a::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: orange;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
 body nav#home-nav {
