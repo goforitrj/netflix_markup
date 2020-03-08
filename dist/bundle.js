@@ -3827,14 +3827,25 @@ eval("__webpack_require__(/*! ./modules/es6.symbol */ \"./node_modules/core-js/m
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js!./src/styles.css":
-/*!**********************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src!./src/styles.css ***!
-  \**********************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js!./src/asset/styles/home.css":
+/*!*********************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src!./src/asset/styles/home.css ***!
+  \*********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"body {\\n    background-color: green;\\n}\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/styles.css?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../image/strawberry.jpg */ \"./src/asset/image/strawberry.jpg\");\nvar ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(/*! ../image/laptop.jpg */ \"./src/asset/image/laptop.jpg\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);\n// Module\nexports.push([module.i, \"body {\\n  color: #111111;\\n  font-size: 17px;\\n}\\n\\nbody header {\\n  display: none;\\n}\\n\\nbody .sns-button-area {\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n}\\n\\nbody .sns-button-area .button {\\n  width: 40px;\\n  height: 40px;\\n  margin-left: 2px;\\n  -webkit-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .4);\\n          box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .4);\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  -webkit-box-align: center;\\n      -ms-flex-align: center;\\n          align-items: center;\\n  -webkit-box-pack: center;\\n      -ms-flex-pack: center;\\n          justify-content: center;\\n  position: relative;\\n}\\n\\nbody .sns-button-area .button a {\\n  font-size: 1.5em;\\n  color: white;\\n}\\n\\nbody .sns-button-area .button:hover {\\n  color: black;\\n}\\n\\nbody .sns-button-area .button:hover a::after {\\n  content: '';\\n  position: absolute;\\n  top: 0;\\n  left: 0;\\n  background-color: orange;\\n  width: 100%;\\n  height: 100%;\\n  z-index: -1;\\n}\\n\\nbody nav#home-nav {\\n  width: 88px;\\n  position: fixed;\\n  top: 0;\\n  bottom: 0;\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  -webkit-box-orient: vertical;\\n  -webkit-box-direction: normal;\\n      -ms-flex-direction: column;\\n          flex-direction: column;\\n  -webkit-box-pack: justify;\\n      -ms-flex-pack: justify;\\n          justify-content: space-between;\\n  -webkit-box-align: center;\\n      -ms-flex-align: center;\\n          align-items: center;\\n  border-right: 1px solid #dddddd;\\n}\\n\\nbody nav#home-nav a.nav-icon {\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  -webkit-box-align: center;\\n      -ms-flex-align: center;\\n          align-items: center;\\n  -webkit-box-pack: center;\\n      -ms-flex-pack: center;\\n          justify-content: center;\\n  width: 50px;\\n  height: 50px;\\n  margin: 20px;\\n  font-size: 0.9em;\\n  font-weight: bold;\\n  color: white;\\n  background-color: #faaf52;\\n  border-radius: 50%;\\n}\\n\\nbody nav#home-nav div.nav-info {\\n  -webkit-transform: rotate(-90deg);\\n          transform: rotate(-90deg);\\n  width: 500px;\\n  text-align: center;\\n  text-transform: uppercase;\\n  line-height: 1.1em;\\n  padding-top: 5px;\\n}\\n\\nbody nav#home-nav div.nav-info .nav-info-title {\\n  font-weight: bold;\\n}\\n\\nbody nav#home-nav div.nav-info .nav-info-description {\\n  font-size: 0.8em;\\n  color: gray;\\n}\\n\\nbody nav#home-nav span.nav-more {\\n  margin: 20px;\\n  font-size: 1.8em;\\n  color: gray;\\n  cursor: pointer;\\n}\\n\\nbody article.first-article {\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  position: relative;\\n  height: 100vh;\\n}\\n\\nbody article.first-article .info-left {\\n  -webkit-box-flex: 1;\\n      -ms-flex: 1;\\n          flex: 1;\\n}\\n\\nbody article.first-article .info-left .info-left-container {\\n  padding: 15%;\\n}\\n\\nbody article.first-article .info-left .info-left-container h2 {\\n  font-size: 2.2em;\\n  font-weight: bold;\\n  text-transform: uppercase;\\n  margin-bottom: 4em;\\n}\\n\\nbody article.first-article .info-left .info-left-container p {\\n  line-height: 1.2em;\\n  padding: 22% auto;\\n}\\n\\nbody article.first-article .info-right {\\n  -webkit-box-flex: 1;\\n      -ms-flex: 1;\\n          flex: 1;\\n  position: relative;\\n}\\n\\nbody article.first-article .info-right::after {\\n  content: '';\\n  background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n  background-size: cover;\\n  position: absolute;\\n  opacity: 0.7;\\n  top: 0;\\n  left: 0;\\n  bottom: 0;\\n  right: 0;\\n  z-index: -1;\\n}\\n\\nbody article.first-article .info-right .button-area.before {\\n  opacity: 0;\\n  -webkit-transform: translateY(5vh);\\n          transform: translateY(5vh);\\n  visibility: hidden;\\n  will-change: opacity, transform, visibility;\\n  -webkit-transition: opacity 1200ms ease-out 0s, visibility 1200ms ease-out 0s, -webkit-transform 800ms ease-out 0s;\\n  transition: opacity 1200ms ease-out 0s, visibility 1200ms ease-out 0s, -webkit-transform 800ms ease-out 0s;\\n  transition: opacity 1200ms ease-out 0s, transform 800ms ease-out 0s, visibility 1200ms ease-out 0s;\\n  transition: opacity 1200ms ease-out 0s, transform 800ms ease-out 0s, visibility 1200ms ease-out 0s, -webkit-transform 800ms ease-out 0s;\\n}\\n\\nbody article.first-article .info-right .button-area.after {\\n  will-change: opacity, transform, visibility;\\n  opacity: 1;\\n  -webkit-transform: none;\\n          transform: none;\\n  visibility: visible;\\n  -webkit-transition: opacity 1200ms ease-out 0s, visibility 1200ms ease-out 0s, -webkit-transform 800ms ease-out 0s;\\n  transition: opacity 1200ms ease-out 0s, visibility 1200ms ease-out 0s, -webkit-transform 800ms ease-out 0s;\\n  transition: opacity 1200ms ease-out 0s, transform 800ms ease-out 0s, visibility 1200ms ease-out 0s;\\n  transition: opacity 1200ms ease-out 0s, transform 800ms ease-out 0s, visibility 1200ms ease-out 0s, -webkit-transform 800ms ease-out 0s;\\n}\\n\\nbody article.first-article .info-right .button-area {\\n  position: absolute;\\n  bottom: 22%;\\n  right: 7%;\\n}\\n\\nbody article.first-article .down-button {\\n  position: absolute;\\n  bottom: 5%;\\n  left: 50%;\\n  -webkit-transform: translate(-50%, 0);\\n          transform: translate(-50%, 0);\\n  background-color: #faaf52;\\n  width: 40px;\\n  height: 40px;\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  -webkit-box-pack: center;\\n      -ms-flex-pack: center;\\n          justify-content: center;\\n  -webkit-box-align: center;\\n      -ms-flex-align: center;\\n          align-items: center;\\n}\\n\\nbody article.first-article .down-button a {\\n  text-decoration: none;\\n  color: white;\\n}\\n\\nbody article.second-article {\\n  padding: 5em;\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n}\\n\\nbody article.second-article .second-article-start,\\nbody article.second-article .second-article-middle,\\nbody article.second-article .second-article-end {\\n  -webkit-box-flex: 1;\\n      -ms-flex: 1;\\n          flex: 1;\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  -webkit-box-orient: vertical;\\n  -webkit-box-direction: normal;\\n      -ms-flex-direction: column;\\n          flex-direction: column;\\n  -webkit-box-align: center;\\n      -ms-flex-align: center;\\n          align-items: center;\\n  padding: 1em;\\n  color: #777;\\n  -webkit-transform-style: preserve-3d;\\n          transform-style: preserve-3d;\\n  opacity: 1;\\n}\\n\\nbody article.second-article .second-article-start h2,\\nbody article.second-article .second-article-middle h2,\\nbody article.second-article .second-article-end h2 {\\n  color: black;\\n  font-size: 2em;\\n  font-weight: bold;\\n  text-transform: uppercase;\\n  margin-bottom: 2em;\\n}\\n\\nbody article.third-article {\\n  padding: 20% 30%;\\n  background-size: cover;\\n  background-attachment: scroll, fixed;\\n  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, .5)), to(rgba(17, 17, 17, .5))), url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \");\\n  background-image: linear-gradient(180deg, rgba(17, 17, 17, .5), rgba(17, 17, 17, .5)), url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \");\\n}\\n\\nbody article.third-article p {\\n  font-size: 1.1em;\\n  color: white;\\n  line-height: 1.4em;\\n}\\n\\nbody article.forth-article {\\n  display: none;\\n}\\n\\nbody section#home-section,\\nbody footer {\\n  margin-left: 88px;\\n}\\n\\nbody footer {\\n  padding: 5%;\\n  background-image: -webkit-gradient(linear, left top, right top, from(#40424b), to(#1c1d24));\\n  background-image: linear-gradient(90deg, #40424b, #1c1d24);\\n  color: white;\\n  font-size: 0.8em;\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  -webkit-box-pack: justify;\\n      -ms-flex-pack: justify;\\n          justify-content: space-between;\\n  -webkit-box-align: center;\\n      -ms-flex-align: center;\\n          align-items: center;\\n}\\n\\nbody footer .navigation {\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  -webkit-box-orient: vertical;\\n  -webkit-box-direction: normal;\\n      -ms-flex-direction: column;\\n          flex-direction: column;\\n}\\n\\nbody footer a {\\n  color: white;\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/asset/styles/home.css?./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js!./src/asset/styles/reset.css":
+/*!**********************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src!./src/asset/styles/reset.css ***!
+  \**********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"/* http://meyerweb.com/eric/tools/css/reset/\\n   v2.0 | 20110126\\n   License: none (public domain)\\n*/\\nhtml,\\nbody,\\ndiv,\\nspan,\\napplet,\\nobject,\\niframe,\\nh1,\\nh2,\\nh3,\\nh4,\\nh5,\\nh6,\\np,\\nblockquote,\\npre,\\na,\\nabbr,\\nacronym,\\naddress,\\nbig,\\ncite,\\ncode,\\ndel,\\ndfn,\\nem,\\nimg,\\nins,\\nkbd,\\nq,\\ns,\\nsamp,\\nsmall,\\nstrike,\\nstrong,\\nsub,\\nsup,\\ntt,\\nvar,\\nb,\\nu,\\ni,\\ncenter,\\ndl,\\ndt,\\ndd,\\nol,\\nul,\\nli,\\nfieldset,\\nform,\\nlabel,\\nlegend,\\ntable,\\ncaption,\\ntbody,\\ntfoot,\\nthead,\\ntr,\\nth,\\ntd,\\narticle,\\naside,\\ncanvas,\\ndetails,\\nembed,\\nfigure,\\nfigcaption,\\nfooter,\\nheader,\\nhgroup,\\nmenu,\\nnav,\\noutput,\\nruby,\\nsection,\\nsummary,\\ntime,\\nmark,\\naudio,\\nvideo {\\n  margin: 0;\\n  padding: 0;\\n  border: 0;\\n  font-size: 100%;\\n  font: inherit;\\n  vertical-align: baseline;\\n}\\n\\n/* HTML5 display-role reset for older browsers */\\narticle,\\naside,\\ndetails,\\nfigcaption,\\nfigure,\\nfooter,\\nheader,\\nhgroup,\\nmenu,\\nnav,\\nsection {\\n  display: block;\\n}\\n\\nbody {\\n  line-height: 1;\\n}\\n\\nol,\\nul {\\n  list-style: none;\\n}\\n\\nblockquote,\\nq {\\n  quotes: none;\\n}\\n\\nblockquote:before,\\nblockquote:after,\\nq:before,\\nq:after {\\n  content: '';\\n  content: none;\\n}\\n\\ntable {\\n  border-collapse: collapse;\\n  border-spacing: 0;\\n}\\n\\n* {\\n  -webkit-box-sizing: border-box;\\n          box-sizing: border-box;\\n}\\n\\na {\\n  text-decoration: none;\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/asset/styles/reset.css?./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src");
 
 /***/ }),
 
@@ -3847,6 +3858,18 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../n
 
 "use strict";
 eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\n// eslint-disable-next-line func-names\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return \"@media \".concat(item[2], \" {\").concat(content, \"}\");\n      }\n\n      return content;\n    }).join('');\n  }; // import a list of modules into the list\n  // eslint-disable-next-line func-names\n\n\n  list.i = function (modules, mediaQuery, dedupe) {\n    if (typeof modules === 'string') {\n      // eslint-disable-next-line no-param-reassign\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    if (dedupe) {\n      for (var i = 0; i < this.length; i++) {\n        // eslint-disable-next-line prefer-destructuring\n        var id = this[i][0];\n\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n\n    for (var _i = 0; _i < modules.length; _i++) {\n      var item = [].concat(modules[_i]);\n\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        // eslint-disable-next-line no-continue\n        continue;\n      }\n\n      if (mediaQuery) {\n        if (!item[2]) {\n          item[2] = mediaQuery;\n        } else {\n          item[2] = \"\".concat(mediaQuery, \" and \").concat(item[2]);\n        }\n      }\n\n      list.push(item);\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring\n\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return \"/*# sourceURL=\".concat(cssMapping.sourceRoot || '').concat(source, \" */\");\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = \"sourceMappingURL=data:application/json;charset=utf-8;base64,\".concat(base64);\n  return \"/*# \".concat(data, \" */\");\n}\n\n//# sourceURL=webpack:///./node_modules/css-loader/dist/runtime/api.js?");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    // eslint-disable-next-line no-param-reassign\n    options = {};\n  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign\n\n\n  url = url && url.__esModule ? url.default : url;\n\n  if (typeof url !== 'string') {\n    return url;\n  } // If url is already wrapped in quotes, remove them\n\n\n  if (/^['\"].*['\"]$/.test(url)) {\n    // eslint-disable-next-line no-param-reassign\n    url = url.slice(1, -1);\n  }\n\n  if (options.hash) {\n    // eslint-disable-next-line no-param-reassign\n    url += options.hash;\n  } // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n\n\n  if (/[\"'() \\t\\n]/.test(url) || options.needQuotes) {\n    return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, '\\\\n'), \"\\\"\");\n  }\n\n  return url;\n};\n\n//# sourceURL=webpack:///./node_modules/css-loader/dist/runtime/getUrl.js?");
 
 /***/ }),
 
@@ -3873,6 +3896,52 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 
 /***/ }),
 
+/***/ "./src/asset/image/laptop.jpg":
+/*!************************************!*\
+  !*** ./src/asset/image/laptop.jpg ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"ad8df2a3cd7096f468ee384baff5395a.jpg\");\n\n//# sourceURL=webpack:///./src/asset/image/laptop.jpg?");
+
+/***/ }),
+
+/***/ "./src/asset/image/strawberry.jpg":
+/*!****************************************!*\
+  !*** ./src/asset/image/strawberry.jpg ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"b0f0bdbf1dc0c883d662bbaf227e0344.jpg\");\n\n//# sourceURL=webpack:///./src/asset/image/strawberry.jpg?");
+
+/***/ }),
+
+/***/ "./src/asset/styles/home.css":
+/*!***********************************!*\
+  !*** ./src/asset/styles/home.css ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-1!../../../node_modules/postcss-loader/src!./home.css */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js!./src/asset/styles/home.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/asset/styles/home.css?");
+
+/***/ }),
+
+/***/ "./src/asset/styles/reset.css":
+/*!************************************!*\
+  !*** ./src/asset/styles/reset.css ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-1!../../../node_modules/postcss-loader/src!./reset.css */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js!./src/asset/styles/reset.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/asset/styles/reset.css?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -3881,18 +3950,7 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_css__WEBPACK_IMPORTED_MODULE_0__);\n\n\nvar add = function add(x, y) {\n  return x + y;\n};\n\nvar result = add(5, 5);\nconsole.log(result);\n\n//# sourceURL=webpack:///./src/index.js?");
-
-/***/ }),
-
-/***/ "./src/styles.css":
-/*!************************!*\
-  !*** ./src/styles.css ***!
-  \************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("var api = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-1!../node_modules/postcss-loader/src!./styles.css */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js!./src/styles.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\nvar exported = content.locals ? content.locals : {};\n\n\n\nmodule.exports = exported;\n\n//# sourceURL=webpack:///./src/styles.css?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _asset_styles_reset_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./asset/styles/reset.css */ \"./src/asset/styles/reset.css\");\n/* harmony import */ var _asset_styles_reset_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_asset_styles_reset_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _asset_styles_home_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./asset/styles/home.css */ \"./src/asset/styles/home.css\");\n/* harmony import */ var _asset_styles_home_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_asset_styles_home_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nvar add = function add(x, y) {\n  return x + y;\n};\n\nvar result = add(5, 5);\nconsole.log(result);\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
